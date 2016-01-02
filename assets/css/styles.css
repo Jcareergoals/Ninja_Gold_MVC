@@ -1,0 +1,63 @@
+		* {
+			margin: 0px; 
+			padding: 0px;
+			font-size: 1em;  
+		}
+		body {
+			background-color: orange; 
+		}
+		#container {
+			width: 970px; 
+			padding: 20px; 
+			background-color: silver; 
+			margin: 10% auto; 
+			border: 2px solid gray; 
+		}
+		.header p {
+			display: inline-block;
+			overflow: auto; 
+		}
+			.header p:nth-child(2) {
+				width: 100px; 
+				border: 1px solid black; 
+				background-color: white; 
+				padding: 5px; 
+			}
+		.goal {
+			text-align: center; 
+			color: red; 
+		}
+		.destinations div {
+			display: inline-block; 
+			text-align: center; 
+			border: 1px solid black;
+			background-color: rgb(240,240,240); 
+			width: 185px;  
+			padding: 15px; 
+			margin: 10px; 
+		}
+		.destinations div:hover {
+			box-shadow: 0px 0px 30px orange; 
+		}
+			.destinations p {
+				margin-top: 15px; 
+			}
+			.destinations input {
+				text-align: center; 
+				width: 120px; 
+				padding: 10px; 
+				margin-top: 25px; 
+			}
+		.log {
+			height: 100px; 
+			padding: 10px; 
+			border: 1px solid black;
+			background-color: white; 
+			overflow: auto;  
+		}
+			.log .g {
+				color: green; 
+			}
+			.log .r {
+				color: red; 
+			}
